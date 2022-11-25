@@ -1,0 +1,16 @@
+Dictionary of Dataset 'subreddit_cleaned_.csv'
+
+RangeIndex: 3998 entries, 0 to 3997
+Data columns (total 7 columns):
+ #   Column               Non-Null Count  Dtype     Description
+---  ------               --------------  -----     -----------
+ 0   subreddit            3998 non-null   object    subreddits name 
+ 1   selftext             3998 non-null   object    Documents (post content from each subreddit)
+ 2   links                3998 non-null   object    Urls links from Documents
+ 3   youtube_links        3998 non-null   object    Urls from youtube_links from Documents
+ 4   tokens               3998 non-null   object    List of tokens from Documents
+ 5   selftext_length      3998 non-null   int64     Length of Documents (characteres)
+ 6   selftext_word_count  3998 non-null   int64     Word counts from Documents
+
+dtypes: int64(2), object(5)
+memory usage: 218.8+ KB
