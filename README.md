@@ -1,5 +1,5 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 3: 
-# NLP Classifier Subreddits 'OutOfTheLoop' & 'ExplainLikeI'mFive'
+# NATURAL LANGUAGE CLASSIFICATION  
+# Subreddits 'OutOfTheLoop' & 'ExplainLikeI'mFive'
 
 
 The objective of this project is to develop a predictive model to classify posts from two different subreddits. The choice of subreddits was made with care not to have too many overlapping terms while being careful not to be completely uncorrelated. The first chosen subreddit is called ‘Explain Like I'm Five’ [1] which people a request for a simple explanation to a complicated question or problems in general. Like they say: ‘layperson-friendly explanations. The second subreddit is ‘Out of The Loop’. This one, is A subreddit to help you keep up to date with what's going on with reddit and other stuff [2]. For this, two models were built using different supervised machine learning techniques such as Logistic Regression, Multinomial Naive Bayes in addition to hyper parameterization and tuning techniques such as Pipelines, GridSearch and Boosting in addition to using NPL for processing the text contained in each post subreddits
